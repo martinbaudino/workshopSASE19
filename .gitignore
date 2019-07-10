@@ -63,4 +63,4 @@ out/
 # User file and folders
 _programs/
 user_preferences.cfg
-program.mk
+#program.mk

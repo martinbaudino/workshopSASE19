@@ -1,7 +1,7 @@
 ## Primeros Pasos
 
 Para facilitar el inicio del workshop es necesario tener el entorno de programación de la CIAA instalado y poder compilar el ejemplo de prueba.
-**Version provisoria**
+**Version provisoriaaa**
 
 ### Primer Paso: Instalar CIAA IDE
 

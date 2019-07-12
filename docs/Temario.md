@@ -25,3 +25,13 @@ En esta unidad se repasaran diferentes mecanismos de percepción y el procesamie
 Se comenzará introduciendo el problema de la percepción en robótica, describiendo los tipos de sensores más utilizados, su clasificación y casos de uso. Luego se trabajará sobre dos ejercicios distintos: la utilización de la plataforma como "robot seguidor de líneas", utilizando un sensor de infrarrojos, y como "robot evasor de obstáculos", leyendo datos de un sensor por ultrasonidos. En ambos casos se utilizará el Conversor Analógico a Digital (ADC) de la Edu-CIAA, a través de la librería sAPI. Durante el desarrollo de los ejercicios se harán pausas con explicaciones del funcionamiento de los sensores a utilizar, junto con los criterios de diseño que permitan la resolución exitosa de los mismos.
 
 **Temas:** Tipos de sensores. Fundamentos de sensores de proximidad. Sensores por ultrasonido. Sensores Infrarrojos. Utilización con EduCIAA y sAPI. Robot seguidor de líneas. Evasión de obstáculos.
+
+## Unidad 3: Conectividad
+
+Se presentan los mecanismos más comunes de comunicación en sistemas embebidos en general y sus aplicaciones para transmisión dentro de robots y con agentes externos.
+
+Inicialmente se hará un repaso de formas de transmisión de datos, junto con un repaso de los protocolos más comunes de comunicación serial (CAN, SPI, I2C, USB), junto con ejemplos de aplicaciones. Finalmente se entrará en detalles de comunicaciones asíncronas utilizando UARTs.
+
+En el ejemplo a desarrollar se dotará a la plataforma robótica de comunicación inalámbrica a través de Bluetooth utilizando el módulo HC-05 con el Perfil de Puerto Serie (SPP) para que la plataforma envíe mediciones de los sensores y reciba comandos predefinidos.
+
+**Temas:** Principios de Comunicaciones seriales. Transmisión de datos entre el puerto serie de la EduCIAA a una PC. Manejadores de interrupciones. Bluetooth con módulo HC05.

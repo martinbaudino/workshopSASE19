@@ -7,3 +7,13 @@ Utilizando el robot [EduRoMAA](https://github.com/ciiiutnfrc/eduromaa), una plat
 Cada unidad se inicia con una breve exposición de conceptos teóricos de robótica móvil, para luego pasar a aplicaciones prácticas de programación utilizando la plataforma Edu-CIAA sobre robots educativos. Algunas de las aplicaciones serán: desplazamiento con tracción diferencial; sensores infrarrojos (seguidor de líneas); medición de distancia por ultrasonido (evasión de obstáculos); control de velocidad utilizando encoders, operación a distancia (comunicación serial inalámbrica por Bluetooth).
 
 Este workshop es complementario a otros que se dictarán en el SASE 2019, tales como "Programación de Sistemas Embebidos en lenguaje C/C++".
+
+## Unidad 1: Robots Móviles
+
+Tiene como objetivos la presentación de nociones básicas de robótica móvil y el control de motores con microcontroladores.
+
+La introducción teórica presenta clasificaciones de robots móviles a partir de criterios como el tipo de locomoción (con piernas, ruedas o voladores). Luego se ahonda en los problemas relacionados a la locomoción con ruedas y en particular los robots de tracción diferencial de dos ruedas, ya que este es el tipo de robot educativo con el que se harán las prácticas. Se finaliza introduciendo el funcionamiento de distintos tipos de actuadores y particularmente mecanismos básicos para el control de motores.
+
+El ejemplo práctico que se desarrollará será el movimiento de la plataforma siguiendo una trayectoria predefinida, descomponiendo el desplazamiento en movimientos simples (avances en línea recta y giros). Para ello se utilizará el módulo PWM de la librería sAPI de la plataforma Edu-CIAA. La práctica de programación será interrumpida con explicaciones teóricas sobre motores de corriente continua (CC) y modulación por ancho de pulso (PWM).
+
+**Temas:** Tipos de robots. Sistemas de propulsión. Configuraciones de Ruedas. Servomotores. Motores de DC. Modulación de Ancho de Pulsos (PWM). Puente H. Control de motores de DC con EduCIAA y sAPI.

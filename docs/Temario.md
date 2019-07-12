@@ -17,3 +17,11 @@ La introducción teórica presenta clasificaciones de robots móviles a partir d
 El ejemplo práctico que se desarrollará será el movimiento de la plataforma siguiendo una trayectoria predefinida, descomponiendo el desplazamiento en movimientos simples (avances en línea recta y giros). Para ello se utilizará el módulo PWM de la librería sAPI de la plataforma Edu-CIAA. La práctica de programación será interrumpida con explicaciones teóricas sobre motores de corriente continua (CC) y modulación por ancho de pulso (PWM).
 
 **Temas:** Tipos de robots. Sistemas de propulsión. Configuraciones de Ruedas. Servomotores. Motores de DC. Modulación de Ancho de Pulsos (PWM). Puente H. Control de motores de DC con EduCIAA y sAPI.
+
+## Unidad 2: Sensores básicos
+
+En esta unidad se repasaran diferentes mecanismos de percepción y el procesamiento de señales provenientes de sensores.
+
+Se comenzará introduciendo el problema de la percepción en robótica, describiendo los tipos de sensores más utilizados, su clasificación y casos de uso. Luego se trabajará sobre dos ejercicios distintos: la utilización de la plataforma como "robot seguidor de líneas", utilizando un sensor de infrarrojos, y como "robot evasor de obstáculos", leyendo datos de un sensor por ultrasonidos. En ambos casos se utilizará el Conversor Analógico a Digital (ADC) de la Edu-CIAA, a través de la librería sAPI. Durante el desarrollo de los ejercicios se harán pausas con explicaciones del funcionamiento de los sensores a utilizar, junto con los criterios de diseño que permitan la resolución exitosa de los mismos.
+
+**Temas:** Tipos de sensores. Fundamentos de sensores de proximidad. Sensores por ultrasonido. Sensores Infrarrojos. Utilización con EduCIAA y sAPI. Robot seguidor de líneas. Evasión de obstáculos.

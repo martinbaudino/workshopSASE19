@@ -60,5 +60,5 @@ DEFINES+=SAPI_USE_INTERRUPTS
 # -----------------------------------------------------------------------------
 
 # Proyecto 11: 
-#PROGRAM_NAME = completa
-#DEFINES+=SAPI_USE_INTERRUPTS
+#PROGRAM_NAME = 
+

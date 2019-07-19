@@ -60,7 +60,7 @@ PROGRAM_PATH = eduromaa/app
 # -----------------------------------------------------------------------------
 
 # Aplicación 00: Paragolpes con retardo bloqueante
-#PROGRAM_NAME = 00_paragolpes
+PROGRAM_NAME = 00_paragolpes
 
 # Aplicación 01: Paragolpes con retardo NO bloqueante
 #PROGRAM_NAME = 01_paragolpes_nobl
@@ -87,5 +87,5 @@ PROGRAM_PATH = eduromaa/app
 #DEFINES+=SAPI_USE_INTERRUPTS
 
 # Aplicación 08: Control por Bluetooth
-PROGRAM_NAME = 08_bluetooth
-DEFINES+=SAPI_USE_INTERRUPTS
+#PROGRAM_NAME = 08_bluetooth
+#DEFINES+=SAPI_USE_INTERRUPTS
